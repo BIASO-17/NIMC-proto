@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color:white;
+}
+#one{
+    background-color:white;
+ grid-column:1 / span 10 ;
+ border: 1px solid;
+ height: 100px;
+ display: flex;
+ 
+ 
+   
+}
+#two{
+    background-color: white;
+    grid-column: 1 / span 3;
+    height: 40px;
+   
+ 
+}
+#three{
+    background-color: white;
+    grid-column: 1 / span 3;
+    height: 40px;
+   
+}
+#four{
+    background-color:white ;
+    grid-column: 1 / span 3;
+   grid-row: 4 / span 2;
+   
+    
+
+}
+#five{
+    background-color: white;
+    grid-column: 4 / span 3;
+    grid-row: 2 / span 1;
+    height: 40px;
+}
+#six{
+    background-color: white;
+    grid-column: 4 / span 3;
+    grid-row: 3 / span  1;
+    height: 40px;
+   
+}
+#seven{
+    background-color:white;
+    grid-column: 4 / span 3;
+    grid-row: 4 / span  1;
+    height: 40px;
+   
+}
+#eight{
+    grid-column: 7 / span 3;
+    grid-row:2 / span 4 ;
+    
+}
+#nine{
+    grid-column: 10 / span 1 ;
+    grid-row:2 / span 4 ;
+    height: 224px;
+
+}
+#ten{
+    grid-column: 4 / span 3;
+    grid-row: 5 / span 1;
+}
+#eleven{
+    grid-column: 1 / span 10;
+}
+#twelve{
+    grid-column: 1 / span 2;
+   
+    
+}
+#thirteen{
+    grid-column:3 / span 2 ;
+}
+#fourteen{
+    grid-column: 5 / span 2 ;
+}
+#fifteen{
+    grid-column: 7 / span 4;
+
+}
+
+   
+
+.did{
+    padding-top: 25px;
+    
+    font-size: 20px;
+    border:1px solid ;
+
+}
+.maindid{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    background-color: white;
+    padding: 5px;
+   
+    
+
+
+}
+#p{ display: flex;
+    margin-left: 50px;
+    
+  
+
+}
